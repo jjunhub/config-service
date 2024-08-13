@@ -6,11 +6,11 @@ server:
     threads:
       max: 50
       min-spare: 5
+  shutdown: graceful
 
 spring :
   application:
     name : config-service
-
   cloud:
     config:
       server:
